@@ -7,6 +7,7 @@ let inputLength = () => input.value.length;
 
 let listLength = () => item.length;
 
+// Create a new list element 
 const createListElement = () => {
     // Create element li
     var li = document.createElement('li'); 
@@ -30,8 +31,13 @@ const createListElement = () => {
 
 }
 
-const addListAfterClick = e => {
+// Event handler if clicked or 'enter' is pressed
+const addListEvent = e => {
+    e.preventDefault();
     if(inputLength()>0) createListElement();
 }
 
-enterButton.addEventListener('click', addListAfterClick, false);
+// Add item if button is clicked 
+enterButton.addEventListener('click', addListEvent, false);
+// Add item if enter is pressed 
+document.querySelector('.inpForm').addEventListener('submit', addListEvent, false);
