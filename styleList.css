@@ -45,3 +45,22 @@ input{
     padding: 6px;
 }
 
+ul{
+    text-align: left;
+    margin-top: 20px;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+li > button{
+    font-weight: normal;
+}
+
+.done{
+    background: #c8c6c6 !important;
+    color: #00891E;
+}
