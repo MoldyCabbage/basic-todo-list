@@ -54,13 +54,25 @@ li{
     list-style: none;
     color: aliceblue;
     text-transform: capitalize;
+    border: 2px solid #025f70;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-bottom: 10px;
 }
 
 li > button{
     font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: antiquewhite;
 }
 
 .done{
-    background: #c8c6c6 !important;
-    color: #00891E;
+    background: #191919 !important;
+    color: #ffdd32;
+}
+
+.delete{
+    display: none;
 }

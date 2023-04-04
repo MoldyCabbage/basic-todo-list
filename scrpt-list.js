@@ -28,6 +28,16 @@ const createListElement = () => {
     li.addEventListener('click', crossOut, false);
     // -- Toggle if done -- 
 
+    // -- Adding Delete button --
+    const deleteListItem = e => {
+        li.classList.add('delete');
+    }
+
+    var btn = document.createElement('button');
+    btn.appendChild(document.createTextNode('X'));
+    li.appendChild(btn);
+    btn.addEventListener('click', deleteListItem, false);
+    // -- Adding Delete button --
 
 }
 
