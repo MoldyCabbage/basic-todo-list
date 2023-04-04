@@ -1,0 +1,47 @@
+body{
+    background: #262626;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.intro{
+    margin: 5% 0px;
+}
+
+h1{
+    color: rgb(255, 174, 34);
+    text-transform: uppercase;
+    font-weight: 450;
+}
+
+p{
+    font-weight: 350;
+}
+
+#first{
+    color: rgb(255, 255, 65);
+}
+
+#second{
+    color: rgb(255, 192, 65);
+}
+
+#third{
+    color: rgb(255, 144, 65);
+}
+
+#enter{
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    color: rgb(105, 105, 105);
+    background-color: rgb(255, 167, 43);
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    min-width: 45%;
+    padding: 6px;
+}
+
